@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#80dbff"
+        android:gravity="center"
+        android:text="请输入您的提问信息"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EditText1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"     
+        android:text="详细信息"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="20dp"
+        android:text="问题概述"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+	<Button
+	    android:id="@+id/cancel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/submit"
+	    android:layout_alignBottom="@+id/submit"
+	    android:layout_alignRight="@+id/editText2"
+	    android:layout_marginRight="43dp"
+	    android:background="@drawable/loginbutton"
+	    android:gravity="center"
+	    android:text="取消"
+	    android:textColor="@color/primary_text" />
+
+	<Button
+	    android:id="@+id/submit"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/editText2"
+	    android:layout_marginRight="44dp"
+	    android:layout_marginTop="40dp"
+	    android:layout_toLeftOf="@+id/cancel"
+	    android:background="@drawable/loginbutton"
+	    android:gravity="center"
+	    android:text="确定"
+	    android:textColor="@color/primary_text" />
+</RelativeLayout>
+
+ 
+  <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#363D45" >
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE2C5"        
+        android:gravity="center"
+        android:text="@string/questioninput" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF900"
+        android:layout_margin="5dp"
+        android:text="@string/questionoverview" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:layout_margin="5dp"
+        android:minLines="2"
+        android:gravity="top"
+        android:layout_gravity="center"
+        android:inputType="textMultiLine" />
+    
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF900"
+        android:layout_margin="5dp"
+        android:text="@string/questiondetail" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittextbackground"
+        android:layout_gravity="center"
+        android:minLines="5"
+        android:inputType="textMultiLine" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+           android:id="@+id/submit"
+           android:layout_width="120dp"
+           android:layout_height="29dp"
+           android:layout_marginRight="10dp"
+           android:background="#02E8BF"
+           android:text="@string/submit" />
+
+        <Button
+           android:id="@id/cancel"
+           android:layout_width="120dp"
+           android:layout_height="29dp"
+           android:background="#02E8BF"
+           android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>-->
+
